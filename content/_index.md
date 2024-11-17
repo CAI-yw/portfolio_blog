@@ -4,4 +4,4 @@ title: Homepage
 
 # Hello 👋
 
-**Welcome to my digital garden!**
+**Welcome to my portfolio!**

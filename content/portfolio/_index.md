@@ -1,4 +1,4 @@
 ---
 title: Portfolio
-description: My software development projects
+description: My projects
 ---
