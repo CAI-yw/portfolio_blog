@@ -1,4 +1,4 @@
 ---
-title: Portfolio
-description: My projects
+title: Projects
+description: Project features and updates
 ---

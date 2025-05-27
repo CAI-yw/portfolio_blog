@@ -2,7 +2,7 @@
 title: 1. AWS Certified Cloud Pratitioner
 date: 2025-04-26
 images:
-  - https://media-hosting.imagekit.io/517645fca1ac4221/AWS_CLOUD.png?Expires=1840309005&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Js2Okp0Fv9O9MGPhk2pINr240SM6pnszdtPxxk6toi5KM5R1WnH7EqH8XzfX9ar9jJXkN9hQ3oykdvYcjSA7kUNxbn6sfwvbIajpx5yu8FxXDUbByXArl29LLUtmMVx8AsAlVRU8pGuOZ8XP-xmKSwJNNVgJ1nGhBEWt-TU7YqNbjlnIK7wGZVbgVXzjl~VQQJmr5CkSJVmlxdd-sK-OOKEGgbks5zzOWR7iPhj0NG-XABVrXzOWPm3fmMmNmYRk5IF3sWVfMAUBqpMyalixyeRl7Sq9h6BSoCLuEoQXmeuehok6MpG0qopeIHZlT1zDHQ4jQKUyIMt2wjVIi-jk~Q__
+  - https://i.postimg.cc/8P7mYZGG/AWS-CLOUD.png
 ---
 
 After a few months of preparation, I passed the exam and earned the AWS Certified Cloud Practitioner certification.
