@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Articles on My Portfolio &amp; Blogs</title>
-    <link>http://localhost:1313/articles/</link>
+    <link>https://example.org/articles/</link>
     <description>Recent content in Articles on My Portfolio &amp; Blogs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 26 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/articles/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/articles/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1. AWS Certified Cloud Pratitioner</title>
-      <link>http://localhost:1313/articles/aws_cloud/</link>
+      <link>https://example.org/articles/aws_cloud/</link>
       <pubDate>Sat, 26 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/aws_cloud/</guid>
+      <guid>https://example.org/articles/aws_cloud/</guid>
       <description>&lt;p&gt;After a few months of preparation, I passed the exam and earned the AWS Certified Cloud Practitioner certification.&lt;/p&gt;&#xA;&lt;p&gt;In my current AnimalAlert web application, I integrated Amazon S3 to allow users to upload photos and view images posted by other users.&lt;/p&gt;&#xA;&lt;p&gt;In the future, I look forward to using additional AWS services in both personal projects and professional settings.&lt;/p&gt;&#xA;&lt;p&gt;→ &lt;a href=&#34;https://www.credly.com/badges/a6a977c3-37d5-4c88-a32c-339afcfbcec0/public_url&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;To view the certification: &lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>

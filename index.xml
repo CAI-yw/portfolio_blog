@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homepage on My Portfolio &amp; Blogs</title>
-    <link>http://localhost:1313/</link>
+    <link>https://example.org/</link>
     <description>Recent content in Homepage on My Portfolio &amp; Blogs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 28 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Animal Alert App - Main Pages</title>
-      <link>http://localhost:1313/portfolio/bear_alert_app_mainpages/</link>
+      <link>https://example.org/portfolio/bear_alert_app_mainpages/</link>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/bear_alert_app_mainpages/</guid>
+      <guid>https://example.org/portfolio/bear_alert_app_mainpages/</guid>
       <description>&lt;p&gt;The main purpose of this project is to &lt;strong&gt;allow users to share wildlife sightings/observations&lt;/strong&gt; and to &lt;strong&gt;help hikers and tourists prepare for potential encounters with wild animals&lt;/strong&gt;. The app provides real-time updates, a user-friendly interface, and a secure platform for submitting observations.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;main-pages-of-the-application&#34;&gt;Main Pages of the Application&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-user-login&#34;&gt;1. User Login&lt;/h3&gt;&#xA;&lt;p&gt;This page allows registered users to sign in to their account.&lt;br&gt;&#xA;Users can access personalized features, such as submitting new observations or viewing their saved sightings.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Animal Alert App Update - Django Backend with PostgreSQL</title>
-      <link>http://localhost:1313/portfolio/bear_alert_app_django/</link>
+      <link>https://example.org/portfolio/bear_alert_app_django/</link>
       <pubDate>Mon, 26 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/bear_alert_app_django/</guid>
+      <guid>https://example.org/portfolio/bear_alert_app_django/</guid>
       <description>&lt;h2 id=&#34;overall-workflow&#34;&gt;Overall Workflow&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Registration&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;User completes the registration form with a &lt;strong&gt;username&lt;/strong&gt;, &lt;strong&gt;email&lt;/strong&gt;, and &lt;strong&gt;password&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Persistence&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Django saves the new user in the &lt;code&gt;auth_user&lt;/code&gt; table.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Redirect to Login&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;After a successful sign-up, the user is automatically taken to the login page.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Authentication&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;User submits their credentials and clicks &lt;strong&gt;Sign In&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;On success, they are redirected to the home page, which displays an embedded Google Map.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;key-insights-and-notes&#34;&gt;Key Insights and Notes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Built-in User Model&lt;/strong&gt;&lt;br&gt;&#xA;Utilized Django’s default &lt;code&gt;auth_user&lt;/code&gt; model (fields include &lt;code&gt;id&lt;/code&gt;, &lt;code&gt;username&lt;/code&gt;, &lt;code&gt;email&lt;/code&gt;, &lt;code&gt;password&lt;/code&gt;, etc.).&lt;/p&gt;</description>
     </item>
     <item>
       <title>1. AWS Certified Cloud Pratitioner</title>
-      <link>http://localhost:1313/articles/aws_cloud/</link>
+      <link>https://example.org/articles/aws_cloud/</link>
       <pubDate>Sat, 26 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/aws_cloud/</guid>
+      <guid>https://example.org/articles/aws_cloud/</guid>
       <description>&lt;p&gt;After a few months of preparation, I passed the exam and earned the AWS Certified Cloud Practitioner certification.&lt;/p&gt;&#xA;&lt;p&gt;In my current AnimalAlert web application, I integrated Amazon S3 to allow users to upload photos and view images posted by other users.&lt;/p&gt;&#xA;&lt;p&gt;In the future, I look forward to using additional AWS services in both personal projects and professional settings.&lt;/p&gt;&#xA;&lt;p&gt;→ &lt;a href=&#34;https://www.credly.com/badges/a6a977c3-37d5-4c88-a32c-339afcfbcec0/public_url&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;To view the certification: &lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Animal Alert App Update - Email Verification</title>
-      <link>http://localhost:1313/portfolio/bear_alert_app_email_verification/</link>
+      <link>https://example.org/portfolio/bear_alert_app_email_verification/</link>
       <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/bear_alert_app_email_verification/</guid>
+      <guid>https://example.org/portfolio/bear_alert_app_email_verification/</guid>
       <description>&lt;h2 id=&#34;overall-workflow&#34;&gt;Overall Workflow&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;The user fills out the registration form, providing a username, email, and password.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;API Request in Postman&lt;/strong&gt;:&lt;br&gt;&#xA;&lt;code&gt;POST&lt;/code&gt; localhost:8080/api/auth/signup&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;username&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;user1&amp;#34;&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;email&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;user1@gmail.com&amp;#34;&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;password&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;user1_password&amp;#34;&lt;/span&gt;,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;role&amp;#34;&lt;/span&gt;: [&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;user&amp;#34;&lt;/span&gt;]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The new user&amp;rsquo;s information is stored in the &lt;code&gt;user&lt;/code&gt; table in the database:&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;id&lt;/th&gt;&#xA;          &lt;th&gt;username&lt;/th&gt;&#xA;          &lt;th&gt;email&lt;/th&gt;&#xA;          &lt;th&gt;password&lt;/th&gt;&#xA;          &lt;th&gt;enabled&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2&lt;/td&gt;&#xA;          &lt;td&gt;user1&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;mailto:user1@gmail.com&#34; &gt;user1@gmail.com&lt;/a&gt;&lt;/td&gt;&#xA;          &lt;td&gt;$2a$10$Dvm554aScTmQHefLQZOVH./tPuKccDrkmcj.b.SYK9ERQ1fYjHCvm&lt;/td&gt;&#xA;          &lt;td&gt;f&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;A verification email is sent to the user&amp;rsquo;s email address:&#xA;&lt;img src=&#34;https://i.postimg.cc/JtCVb7WF/Registration-Email.png&#34; alt=&#34;Sample Verification Email&#34; title=&#34;Sample Verification Email&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;When the user clicks the verification link, the &lt;code&gt;enabled&lt;/code&gt; field in the database is updated to &lt;code&gt;TRUE&lt;/code&gt;:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Animal Alert App Update - Integrating AWS S3 for Image Storage</title>
-      <link>http://localhost:1313/portfolio/bear_alert_app_s3/</link>
+      <link>https://example.org/portfolio/bear_alert_app_s3/</link>
       <pubDate>Sat, 16 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/bear_alert_app_s3/</guid>
+      <guid>https://example.org/portfolio/bear_alert_app_s3/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This update introduces AWS S3 integration to simplify image storage and management.&lt;/p&gt;&#xA;&lt;p&gt;Usages of this new feature:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Allows users to upload or update profile images.&lt;/li&gt;&#xA;&lt;li&gt;Supports attaching photos while creating or uploading a new animal sighting.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;image-upload-dataflow&#34;&gt;Image Upload Dataflow:&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;The frontend calls the backend API&amp;rsquo;s &lt;code&gt;POST&lt;/code&gt; method.&lt;/li&gt;&#xA;&lt;li&gt;The image is uploaded to the S3 bucket.&lt;/li&gt;&#xA;&lt;li&gt;A record containing the image&amp;rsquo;s UUID is stored in the backend database.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;image-retrieval-dataflow&#34;&gt;Image Retrieval Dataflow:&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;The frontend calls the backend API&amp;rsquo;s &lt;code&gt;GET&lt;/code&gt; method.&lt;/li&gt;&#xA;&lt;li&gt;The backend retrieves the relevant image UUIDs from the database (images associated with the specified sighting).&lt;/li&gt;&#xA;&lt;li&gt;URLs are fetched from the S3 bucket and returned to the frontend.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;key-insights-and-notes&#34;&gt;Key Insights and Notes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Testing&lt;/strong&gt;: We used Postman to thoroughly test the image upload endpoint.&lt;/p&gt;</description>
     </item>
   </channel>
