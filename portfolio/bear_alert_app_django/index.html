@@ -8,50 +8,46 @@
   <link rel="icon" href="/favicon.ico">
 
   <title>
-    Animal Alert App Update - Integrating AWS S3 for Image Storage - My Portfolio &amp; Blogs
+    Animal Alert App Update - Django Backend with PostgreSQL - My Portfolio &amp; Blogs
   </title>
 
-  <meta name="description" content="To ease the uploading and retrieval of images, we integrated AWS S3 into the application." /><meta name="generator" content="Hugo 0.138.0">
+  <meta name="description" content="Implemented user sign-up and log-in workflows using Django’s built-in auth system and PostgreSQL." /><meta name="generator" content="Hugo 0.138.0">
 
   <link rel="stylesheet" href="http://localhost:1313/css/main.css" />
 
   
   
 
-  <meta property="og:url" content="http://localhost:1313/portfolio/bear_alert_app_s3/">
+  <meta property="og:url" content="http://localhost:1313/portfolio/bear_alert_app_django/">
   <meta property="og:site_name" content="My Portfolio & Blogs">
-  <meta property="og:title" content="Animal Alert App Update - Integrating AWS S3 for Image Storage">
-  <meta property="og:description" content="To ease the uploading and retrieval of images, we integrated AWS S3 into the application.">
+  <meta property="og:title" content="Animal Alert App Update - Django Backend with PostgreSQL">
+  <meta property="og:description" content="Implemented user sign-up and log-in workflows using Django’s built-in auth system and PostgreSQL.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="portfolio">
-    <meta property="article:published_time" content="2024-11-16T00:00:00+00:00">
-    <meta property="article:modified_time" content="2024-11-16T00:00:00+00:00">
-    <meta property="og:image" content="https://i.postimg.cc/MpKyhLDB/s3.png">
+    <meta property="article:published_time" content="2025-05-26T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-05-26T00:00:00+00:00">
 
 
   
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://i.postimg.cc/MpKyhLDB/s3.png">
-  <meta name="twitter:title" content="Animal Alert App Update - Integrating AWS S3 for Image Storage">
-  <meta name="twitter:description" content="To ease the uploading and retrieval of images, we integrated AWS S3 into the application.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Animal Alert App Update - Django Backend with PostgreSQL">
+  <meta name="twitter:description" content="Implemented user sign-up and log-in workflows using Django’s built-in auth system and PostgreSQL.">
 
 
   
-  <meta itemprop="name" content="Animal Alert App Update - Integrating AWS S3 for Image Storage">
-  <meta itemprop="description" content="To ease the uploading and retrieval of images, we integrated AWS S3 into the application.">
-  <meta itemprop="datePublished" content="2024-11-16T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2024-11-16T00:00:00+00:00">
-  <meta itemprop="wordCount" content="171">
-  <meta itemprop="image" content="https://i.postimg.cc/MpKyhLDB/s3.png">
+  <meta itemprop="name" content="Animal Alert App Update - Django Backend with PostgreSQL">
+  <meta itemprop="description" content="Implemented user sign-up and log-in workflows using Django’s built-in auth system and PostgreSQL.">
+  <meta itemprop="datePublished" content="2025-05-26T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-05-26T00:00:00+00:00">
+  <meta itemprop="wordCount" content="98">
 
   
-  <meta itemprop="name" content="Animal Alert App Update - Integrating AWS S3 for Image Storage">
-  <meta itemprop="description" content="To ease the uploading and retrieval of images, we integrated AWS S3 into the application.">
-  <meta itemprop="datePublished" content="2024-11-16T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2024-11-16T00:00:00+00:00">
-  <meta itemprop="wordCount" content="171">
-  <meta itemprop="image" content="https://i.postimg.cc/MpKyhLDB/s3.png">
+  <meta itemprop="name" content="Animal Alert App Update - Django Backend with PostgreSQL">
+  <meta itemprop="description" content="Implemented user sign-up and log-in workflows using Django’s built-in auth system and PostgreSQL.">
+  <meta itemprop="datePublished" content="2025-05-26T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-05-26T00:00:00+00:00">
+  <meta itemprop="wordCount" content="98">
 </head>
 <body class="flex relative h-full min-h-screen"><aside
   class="will-change-transform transform transition-transform -translate-x-full absolute top-0 left-0 md:relative md:translate-x-0 w-3/4 md:basis-60 h-full min-h-screen p-3 bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 flex flex-col gap-2.5 z-20 sidebar flex-shrink-0">
@@ -197,56 +193,50 @@
     <a href="http://localhost:1313/portfolio/" class="!no-underline !text-slate-500 !mb-2 !inline-block !font-normal !text-sm hover:!text-slate-700 dark:hover:!text-slate-400">← Back to list</a>
 
     
-    <h1 class="!mb-2">Animal Alert App Update - Integrating AWS S3 for Image Storage</h1>
+    <h1 class="!mb-2">Animal Alert App Update - Django Backend with PostgreSQL</h1>
     
-    <p class="text-sm text-slate-500 !mb-8">November 16, 2024</p>
-    
-
-    
-    <img class="rounded max-w-full w-full mb-4" src="https://i.postimg.cc/MpKyhLDB/s3.png" alt="Animal Alert App Update - Integrating AWS S3 for Image Storage" />
+    <p class="text-sm text-slate-500 !mb-8">May 26, 2025</p>
     
 
-    <h2 id="overview">Overview</h2>
-<p>This update introduces AWS S3 integration to simplify image storage and management.</p>
-<p>Usages of this new feature:</p>
+    
+
+    <h2 id="overall-workflow">Overall Workflow</h2>
+<ol>
+<li>
+<p><strong>Registration</strong></p>
 <ul>
-<li>Allows users to upload or update profile images.</li>
-<li>Supports attaching photos while creating or uploading a new animal sighting.</li>
+<li>User completes the registration form with a <strong>username</strong>, <strong>email</strong>, and <strong>password</strong>.</li>
 </ul>
-<h2 id="image-upload-dataflow">Image Upload Dataflow:</h2>
-<ol>
-<li>The frontend calls the backend API&rsquo;s <code>POST</code> method.</li>
-<li>The image is uploaded to the S3 bucket.</li>
-<li>A record containing the image&rsquo;s UUID is stored in the backend database.</li>
-</ol>
-<h2 id="image-retrieval-dataflow">Image Retrieval Dataflow:</h2>
-<ol>
-<li>The frontend calls the backend API&rsquo;s <code>GET</code> method.</li>
-<li>The backend retrieves the relevant image UUIDs from the database (images associated with the specified sighting).</li>
-<li>URLs are fetched from the S3 bucket and returned to the frontend.</li>
+</li>
+<li>
+<p><strong>Persistence</strong></p>
+<ul>
+<li>Django saves the new user in the <code>auth_user</code> table.</li>
+</ul>
+</li>
+<li>
+<p><strong>Redirect to Login</strong></p>
+<ul>
+<li>After a successful sign-up, the user is automatically taken to the login page.</li>
+</ul>
+</li>
+<li>
+<p><strong>Authentication</strong></p>
+<ul>
+<li>User submits their credentials and clicks <strong>Sign In</strong>.</li>
+<li>On success, they are redirected to the home page, which displays an embedded Google Map.</li>
+</ul>
+</li>
 </ol>
 <h2 id="key-insights-and-notes">Key Insights and Notes</h2>
 <ul>
 <li>
-<p><strong>Testing</strong>: We used Postman to thoroughly test the image upload endpoint.</p>
+<p><strong>Built-in User Model</strong><br>
+Utilized Django’s default <code>auth_user</code> model (fields include <code>id</code>, <code>username</code>, <code>email</code>, <code>password</code>, etc.).</p>
 </li>
 <li>
-<p><strong>Data Storage</strong>: Storing UUIDs in the backend database instead of public URLs (generated by S3) provides better control and flexibility.</p>
-</li>
-<li>
-<p><strong>Endpoints</strong>:</p>
-<ul>
-<li>Upload Image: <code>POST localhost: 8080/api/sighting_images/{sightingId}</code>
-<ul>
-<li>Parameter: <code>file</code> (the image file to upload)</li>
-</ul>
-</li>
-<li>Retrieve Images: <code>GET localhost: 8080/api/sighting_images</code>
-<ul>
-<li>Parameter: <code>sightingId</code> (the ID of the sighting to retrieve associated images)</li>
-</ul>
-</li>
-</ul>
+<p><strong>Password Security</strong><br>
+Passwords are hashed using Django’s standard password hasher (<code>PBKDF2 + SHA256</code> by default).</p>
 </li>
 </ul>
 
