@@ -1,19 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Articles on My Portfolio &amp; Blogs</title>
-    <link>https://example.org/articles/</link>
-    <description>Recent content in Articles on My Portfolio &amp; Blogs</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 26 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.org/articles/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>1. AWS Certified Cloud Pratitioner</title>
-      <link>https://example.org/articles/aws_cloud/</link>
-      <pubDate>Sat, 26 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/articles/aws_cloud/</guid>
-      <description>&lt;p&gt;After a few months of preparation, I passed the exam and earned the AWS Certified Cloud Practitioner certification.&lt;/p&gt;&#xA;&lt;p&gt;In my current AnimalAlert web application, I integrated Amazon S3 to allow users to upload photos and view images posted by other users.&lt;/p&gt;&#xA;&lt;p&gt;In the future, I look forward to using additional AWS services in both personal projects and professional settings.&lt;/p&gt;&#xA;&lt;p&gt;→ &lt;a href=&#34;https://www.credly.com/badges/a6a977c3-37d5-4c88-a32c-339afcfbcec0/public_url&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34; &gt;To view the certification: &lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Articles on My Portfolio &amp; Blogs</title><link>https://cai-yw.github.io/portfolio_blog/articles/</link><description>Recent content in Articles on My Portfolio &amp; Blogs</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 26 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cai-yw.github.io/portfolio_blog/articles/index.xml" rel="self" type="application/rss+xml"/><item><title>1. AWS Certified Cloud Pratitioner</title><link>https://cai-yw.github.io/portfolio_blog/articles/aws_cloud/</link><pubDate>Sat, 26 Apr 2025 00:00:00 +0000</pubDate><guid>https://cai-yw.github.io/portfolio_blog/articles/aws_cloud/</guid><description>&lt;p>After a few months of preparation, I passed the exam and earned the AWS Certified Cloud Practitioner certification.&lt;/p>
+&lt;p>In my current AnimalAlert web application, I integrated Amazon S3 to allow users to upload photos and view images posted by other users.&lt;/p>
+&lt;p>In the future, I look forward to using additional AWS services in both personal projects and professional settings.&lt;/p>
+&lt;p>→ &lt;a href="https://www.credly.com/badges/a6a977c3-37d5-4c88-a32c-339afcfbcec0/public_url" target="_blank" rel="noopener" >To view the certification: &lt;/a>&lt;/p></description></item></channel></rss>
