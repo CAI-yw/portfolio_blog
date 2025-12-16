@@ -1,7 +1,9 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://cai-yw.github.io/portfolio_blog/'
 languageCode = 'en-us'
 title = 'My Portfolio & Blogs'
 theme = 'digitalgarden'
+canonifyURLs = true
+relativeURLs = false
 
 
 [menu]
